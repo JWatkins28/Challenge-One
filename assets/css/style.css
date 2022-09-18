@@ -80,6 +80,26 @@ p {
     margin-left: 20px;
 }
 
+/* !!All of the below selectors were condensed to optimize code!! */
+/* The "Main" element selectors and the "Aside" element selectors were swapped to better reflect the semantics of the HTML */
+/* The below were condensed and also changed to just IDs in the html and changed to ID selectors here */
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
+    max-height: 200px;
+}
+
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
+    font-size: 36px;
+}
+
 /* Changed selector to aside(semantic) to reflect HTML changes and simplify  */
 aside {
     margin-right: 20px;
@@ -92,7 +112,6 @@ aside {
     background-color: #2589bd;
 }
 
-/* All of the below was condensed to optimize code */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -108,27 +127,7 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* The below were also changed to just IDs in the html and changed to ID selectors here */
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* End of Condensed/Optimized CSS Section */
+/* !!End of Condensed/Optimized CSS Section!! */
 
 /* footer class/div was changed in the html to the footer element(semantic) to simplify. css was adjusted to reflect this  */
 footer {

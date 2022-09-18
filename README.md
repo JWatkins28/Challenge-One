@@ -42,9 +42,10 @@ THEN I find a concise, descriptive title
  *All changes made to CSS are also documented in the style.css sheet*
 - Changed ".header" class to "header" element selector
 - Changed all the ".head div" sections to "nav" selector and removed redundant selectors
+- Changed the order of the "main" and "aside" selectors to better reflect the semantics of the HTML
+- Changed #search-engine-optimization, #online-reputation-management, #social-media-marketing from classes to IDs and also condensed redundant selectors
 - Changed ".benefits" to "aside" 
 - Combined all the repetitive redundancies for the various .benefit selectors
-- Changed #search-engine-optimization, #online-reputation-management, #social-media-marketing from classes to IDs and also condensed redundant selectors
 - Changed footer class selector to footer element selector to match semantic html changes
 
 ---
