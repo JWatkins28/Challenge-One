@@ -1,8 +1,10 @@
-# Challenge 1 "Horiseon" for Boot Camp
+# Horiseon Code Refactor
 
 ## **Description**
 
 This project was the first challenge of our boot camp focused on refactoring a Horiseon webpage to create a more efficient and optimized code. We were asked to review the provided source code and make changes as we see fit to meet the acceptance criteria. 
+
+The deployed app can be accessed here: https://jwatkins28.github.io/Horiseon-Code-Refactor/
 
 ---
 
@@ -20,6 +22,11 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+
+## **Preview**
+![Screenshot of App](./assets/images/screenshot.PNG)
+
+Deployed App: https://jwatkins28.github.io/Horiseon-Code-Refactor/
 
 ## **List of Changes**
 
